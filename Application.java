@@ -29,6 +29,25 @@ class Car {
         System.out.println("Car Brand: " + brand + ", Current Speed: " + speed + " km/h");
     }
 }
+
+#feature202 changes by Rahul on October 25th 2024 on payment gateway module
+public class NumberCheck {
+    // Method to check if a number is even or odd
+    public static void checkEvenOdd(int number) {
+        if (number % 2 == 0) {
+            System.out.println(number + " is Even");
+        } else {
+            System.out.println(number + " is Odd");
+        }
+    }
+
+    public static void main(String[] args) {
+        checkEvenOdd(10); // Output: 10 is Even
+        checkEvenOdd(15); // Output: 15 is Odd
+    }
+}
+#end of feature202
+
 #feature201 changes by Vivek on October 2024 on Reports module
 public class MathOperations {
     // Method to add two numbers
@@ -42,6 +61,7 @@ public class MathOperations {
     }
 }
 #end of feature201
+
 
 public class CarDemo {
     public static void main(String[] args) {
