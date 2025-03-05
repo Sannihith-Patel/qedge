@@ -29,6 +29,19 @@ class Car {
         System.out.println("Car Brand: " + brand + ", Current Speed: " + speed + " km/h");
     }
 }
+#feature201 changes by Vivek on October 2024 on Reports module
+public class MathOperations {
+    // Method to add two numbers
+    public static int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        int result = addNumbers(10, 20);
+        System.out.println("Sum: " + result);
+    }
+}
+#end of feature201
 
 public class CarDemo {
     public static void main(String[] args) {
