@@ -29,6 +29,7 @@ class Car {
         System.out.println("Car Brand: " + brand + ", Current Speed: " + speed + " km/h");
     }
 }
+
 #feature202 changes by Rahul on October 25th 2024 on payment gateway module
 public class NumberCheck {
     // Method to check if a number is even or odd
@@ -46,6 +47,21 @@ public class NumberCheck {
     }
 }
 #end of feature202
+
+#feature201 changes by Vivek on October 2024 on Reports module
+public class MathOperations {
+    // Method to add two numbers
+    public static int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public static void main(String[] args) {
+        int result = addNumbers(10, 20);
+        System.out.println("Sum: " + result);
+    }
+}
+#end of feature201
+
 
 public class CarDemo {
     public static void main(String[] args) {
